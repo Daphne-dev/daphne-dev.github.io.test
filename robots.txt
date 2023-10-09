@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://daphne-dev.github.io/sitemap.xml
