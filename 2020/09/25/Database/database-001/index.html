@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><meta name="naver-site-verification" content="456bc64502a0ef0523e1a94f89bc91d5db420691"><title>[DataBase] 관계형 데이터 베이스 - Daphne&#039;s blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Daphne&#039;s blog"><meta name="msapplication-TileImage" content="/img/favicon_.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Daphne&#039;s blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Daphne의 개발 블로그입니다"><meta property="og:type" content="blog"><meta property="og:title" content="Daphne&#039;s blog"><meta property="og:url" content="https://daphne-dev.github.io/"><meta property="og:site_name" content="Daphne&#039;s blog"><meta property="og:description" content="Daphne의 개발 블로그입니다"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://daphne-dev.github.io/img/og_image.png"><meta property="article:published_time" content="2020-09-25T00:55:06.000Z"><meta property="article:modified_time" content="2023-10-09T07:15:45.640Z"><meta property="article:author" content="Daphne"><meta property="article:tag" content="Database"><meta property="article:tag" content="RDBMS"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://daphne-dev.github.io/2020/09/25/Database/database-001/"},"headline":"[DataBase] 관계형 데이터 베이스","image":[],"datePublished":"2020-09-25T00:55:06.000Z","dateModified":"2023-10-09T07:15:45.640Z","author":{"@type":"Person","name":"Daphne"},"publisher":{"@type":"Organization","name":"Daphne's blog","logo":{"@type":"ImageObject","url":"https://daphne-dev.github.io/img/logo_image.png"}},"description":"DataBase란? Database : 데이터를 저장 및 보존하는 시스템   Application에서는 데이터가 메모리 상에서 존재한다. 메모리는 휘발성이라는 특성을 가지고 있기 떄문에 보존되지 않는다. 해당 애플리케이션이 종료되면 메모리에 있던 데이터들은 다시 읽어 들일 수 없다. 데이터를 장기 기간동안 저장 및 보존하기 위해서 데이터베이스를 사용한다."}</script><link rel="canonical" href="https://daphne-dev.github.io/2020/09/25/Database/database-001/"><link rel="icon" href="/img/favicon_.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/monokai-sublime.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-173436998-1" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-173436998-1');</script><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="Daphne's blog" type="application/rss+xml">
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo_image.png" alt="Daphne&#039;s blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" target="_blank" rel="noopener" href="https://github.com/Daphne-dev">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/Daphne-dev"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="카탈로그" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2020-09-25T00:55:06.000Z" title="2020. 9. 25. 오전 9:55:06">2020-09-25</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2023-10-09T07:15:45.640Z" title="2023. 10. 9. 오후 4:15:45">2023-10-09</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Database/">Database</a><span> / </span><a class="link-muted" href="/categories/Database/DB/">DB</a></span><span class="level-item">5분안에 읽기 (약 800 단어)</span><span class="level-item" id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span>회 방문</span></div></div><h1 class="title is-3 is-size-4-mobile">[DataBase] 관계형 데이터 베이스</h1><div class="content"><h2 id="DataBase란"><a href="#DataBase란" class="headerlink" title="DataBase란?"></a>DataBase란?</h2><blockquote>
+<p><code>Database</code> : 데이터를 저장 및 보존하는 시스템</p>
+</blockquote>
+<ul>
+<li>Application에서는 데이터가 메모리 상에서 존재한다. 메모리는 휘발성이라는 특성을 가지고 있기 떄문에 보존되지 않는다. 해당 애플리케이션이 종료되면 메모리에 있던 데이터들은 다시 읽어 들일 수 없다.</li>
+<li>데이터를 장기 기간동안 저장 및 보존하기 위해서 데이터베이스를 사용한다.</li>
+<li><code>Database</code>는 크게 2가지로 나뉘는데 <code>관계형 데이터베이스(RDBMS)</code>와 <code>비관계형 데이터 베이스</code>인 <code>NoSQL</code>이 있다.</li>
+</ul>
+<blockquote>
+<p>결국 데이터베이스는 데이터들을 안전하고 체계적으로 저장하고 보존하기 위해 생각해낸 방법이다.<br><br></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="관계형-데이터베이스-RDBMS-Relational-DataBase-Management-System"><a href="#관계형-데이터베이스-RDBMS-Relational-DataBase-Management-System" class="headerlink" title="관계형 데이터베이스(RDBMS, Relational DataBase Management System)"></a>관계형 데이터베이스(RDBMS, Relational DataBase Management System)</h2><blockquote>
+<p>관계형 데이터 모델에 기초를 둔 데이터베이스 시스템<br>관계형 데이터란 데이터를 서로 상호관련성을 가진 형태로 표현한 데이터를 말함<br>ex) MySQL, Postgres, Oracle DB<br><br></p>
+</blockquote>
+<h3 id="관계형-데이터베이스의-특징"><a href="#관계형-데이터베이스의-특징" class="headerlink" title="관계형 데이터베이스의 특징"></a>관계형 데이터베이스의 특징</h3><ul>
+<li>모든 데이터들은 2차원 테이블로 표현</li>
+<li>각각의 테이블은 서로 상호관련성을 가지고 서로 연결될 수 있다.</li>
+<li>각각의 테이블을 컬럼(column)과 row(로우)로 구성</li>
+<li>컬럼은 테이블의 각 항목을 말한다.</li>
+<li>로우는 각 항목들의 실제 값을 말한다.</li>
+<li>각 로우는 저만의 <code>고유 키(Primary Key)</code>가 있다.<br>
+
+</li>
+</ul>
+<h3 id="테이블-간의-연결"><a href="#테이블-간의-연결" class="headerlink" title="테이블 간의 연결"></a>테이블 간의 연결</h3><p>크게 3가지의 종류가 있다.</p>
+<ol>
+<li>one to one</li>
+<li>one to many</li>
+<li>many to many<br>
+
+</li>
+</ol>
+<h4 id="1-One-to-One"><a href="#1-One-to-One" class="headerlink" title="1. One to One"></a>1. One to One</h4><ul>
+<li>테이블 A의 로우와 테이블 B의 로우가 정확히 1:1 매칭이 되는 관계</li>
+</ul>
+<p><img src="/image/database_001.PNG" alt=""><br><br></p>
+<h4 id="2-One-to-Many"><a href="#2-One-to-Many" class="headerlink" title="2. One to Many"></a>2. One to Many</h4><ul>
+<li>테이블 A의 로우가 테이블 B의 여러 로우와 연결이 되는 관계</li>
+<li>1:N 관계</li>
+</ul>
+<p><img src="/image/database_002.PNG" alt=""><br><br></p>
+<h4 id="3-Many-to-Many"><a href="#3-Many-to-Many" class="headerlink" title="3. Many to Many"></a>3. Many to Many</h4><ul>
+<li>테이블 A의 여러 로우가 테이블 B의 여러 로우와 연결이 되는 관계</li>
+<li>N:N 관계</li>
+</ul>
+<p><img src="/image/database_003.PNG" alt=""><br><br></p>
+<h4 id="테이블을-연결하는-방법"><a href="#테이블을-연결하는-방법" class="headerlink" title="테이블을 연결하는 방법"></a>테이블을 연결하는 방법</h4><ul>
+<li>특정 테이블의 고유 키가 되는 로우를 <code>Foreign key(외부키)</code>로 사용하여 주로 연결한다.</li>
+<li>앞의 one to one 예에서 <code>user_profiles 테이블</code>의 <code>user_id 컬럼</code>은 <code>user 테이블</code>에 걸려있는 외부 키로 지정한다.</li>
+<li>즉, <code>user_id의 값</code>은 <code>users 테이블의 id 값</code>이며 <code>user_id 값</code>은 무조건 <code>users 테이블의 id 컬럼에 존재하는 값</code>만 생성될 수 있다.</li>
+<li>만약 users 테이블에 없는 id 값이 user_id에 지정되면 에러가 난다.<br>
+
+</li>
+</ul>
+<h4 id="테이블을-연결하는-이유"><a href="#테이블을-연결하는-이유" class="headerlink" title="테이블을 연결하는 이유"></a>테이블을 연결하는 이유</h4><ul>
+<li>하나의 테이블에 모든 정보를 다 넣으면 동일한 정보들이 불필요하게 중복되어 저장되기 때문이다.</li>
+<li>이로 인해 더 많은 디스크(저장공간)를 사용하게 된다.</li>
+<li>잘못된 데이터가 저장될 가능성이 높아진다.</li>
+</ul>
+<p>테이블을 연결하면 위의 문제가 해결된다.</p>
+<blockquote>
+<p>이렇게 여러 테이블에 나누어서 저장하는 것을 <code>normalization(정규화)</code>라고 한다.</p>
+</blockquote>
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Database/">Database</a><a class="link-muted mr-2" rel="tag" href="/tags/RDBMS/">RDBMS</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/09/28/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98&amp;SQL/algo-023/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">[프로그래머스] Level 2 조이스틱</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/09/24/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98&amp;SQL/algo-022/"><span class="level-item">[프로그래머스] Level 2 삼각 달팽이</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><script src="https://utteranc.es/client.js" repo="Daphne-dev/blog_comment" issue-term="pathname" label="some-issue-label" theme="github-light" crossorigin="anonymous" async></script></div></div></div><!--!--><div class="column column-right is-4-tablet is-4-desktop is-4-widescreen  order-3 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="Daphne"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Daphne</p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">202</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">28</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">147</p></a></div></div></nav></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">카탈로그</h3><ul class="menu-list"><li><a class="level is-mobile" href="#DataBase란"><span class="level-left"><span class="level-item">1</span><span class="level-item">DataBase란?</span></span></a></li><li><a class="level is-mobile" href="#관계형-데이터베이스-RDBMS-Relational-DataBase-Management-System"><span class="level-left"><span class="level-item">2</span><span class="level-item">관계형 데이터베이스(RDBMS, Relational DataBase Management System)</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#관계형-데이터베이스의-특징"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">관계형 데이터베이스의 특징</span></span></a></li><li><a class="level is-mobile" href="#테이블-간의-연결"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">테이블 간의 연결</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#1-One-to-One"><span class="level-left"><span class="level-item">2.2.1</span><span class="level-item">1. One to One</span></span></a></li><li><a class="level is-mobile" href="#2-One-to-Many"><span class="level-left"><span class="level-item">2.2.2</span><span class="level-item">2. One to Many</span></span></a></li><li><a class="level is-mobile" href="#3-Many-to-Many"><span class="level-left"><span class="level-item">2.2.3</span><span class="level-item">3. Many to Many</span></span></a></li><li><a class="level is-mobile" href="#테이블을-연결하는-방법"><span class="level-left"><span class="level-item">2.2.4</span><span class="level-item">테이블을 연결하는 방법</span></span></a></li><li><a class="level is-mobile" href="#테이블을-연결하는-이유"><span class="level-left"><span class="level-item">2.2.5</span><span class="level-item">테이블을 연결하는 이유</span></span></a></li></ul></li></ul></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo_image.png" alt="Daphne&#039;s blog" height="28"></a><p class="is-size-7"><span>&copy; 2023 Daphne</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv">0</span>명의 사용자가 방문 함</span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/Daphne-dev"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="입력 하세요..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"입력 하세요...","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"superSample":2,"position":"right","width":150,"height":300,"hOffset":0,"vOffset":-60},"mobile":{"show":true,"scale":0.4},"react":{"opacityDefault":0.7,"opacityOnHover":0.2}});</script></body></html>

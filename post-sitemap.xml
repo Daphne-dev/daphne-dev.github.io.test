@@ -9,16 +9,24 @@
 
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/08/13/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/algo-001/</loc>
-        <lastmod>2023-10-09T12:29:16.278Z</lastmod>
+        <loc>https://daphne-dev.github.io/2022/02/16/circleci-001/</loc>
+        <lastmod>2023-10-10T12:26:16.926Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2022/02/16/circleci-001/</loc>
-        <lastmod>2023-10-09T08:55:17.356Z</lastmod>
+        <loc>https://daphne-dev.github.io/2021/04/09/Framework/NestJS/nest-001/</loc>
+        <lastmod>2023-10-10T12:21:42.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/08/13/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/algo-001/</loc>
+        <lastmod>2023-10-09T12:29:16.278Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,7 +41,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/04/19/clean-code-001/</loc>
+        <loc>https://daphne-dev.github.io/2021/04/15/Git/git-config-file/</loc>
         <lastmod>2023-10-09T07:17:13.431Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -41,16 +49,8 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/04/15/git-config-file/</loc>
+        <loc>https://daphne-dev.github.io/2021/04/19/%EA%B0%9C%EB%B0%9C%20%EC%84%9C%EC%A0%81/Clean%20Code/clean-code-001/</loc>
         <lastmod>2023-10-09T07:17:13.431Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/10/05/reduce-js/</loc>
-        <lastmod>2023-10-09T07:15:45.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -65,7 +65,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/30/wsl-mysql-utf8-setting/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/30/Database/wsl-mysql-utf8-setting/</loc>
         <lastmod>2023-10-09T07:15:45.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -73,7 +73,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/15/semantic-web/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/18/Python/python-thread/</loc>
         <lastmod>2023-10-09T07:15:45.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -81,7 +81,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/18/python-thread/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/05/Javascript/reduce-js/</loc>
         <lastmod>2023-10-09T07:15:45.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -89,48 +89,8 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/08/promise-js/</loc>
-        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/09/20/python-coroutine/</loc>
-        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/09/18/python-generator/</loc>
-        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/09/15/python-function/</loc>
-        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/09/19/python-multiproccessing/</loc>
-        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/09/17/python-module-packages/</loc>
-        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/09/15/HTML/CSS/semantic-web/</loc>
+        <lastmod>2023-10-09T07:15:45.644Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -185,48 +145,48 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/08/10/javascript-001/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/09/18/Python/python-generator/</loc>
+        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/07/leetcode-001/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/09/20/Python/python-coroutine/</loc>
+        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/11/javascript-003/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/09/15/Python/python-function/</loc>
+        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/08/leetcode-002/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/09/17/Python/python-module-packages/</loc>
+        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/13/javascript-004/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/09/19/Python/python-multiproccessing/</loc>
+        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/08/17/javascript-002/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/10/08/Javascript/promise-js/</loc>
+        <lastmod>2023-10-09T07:15:45.643Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -234,30 +194,6 @@
 
     <url>
         <loc>https://daphne-dev.github.io/2020/09/21/http/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2021/01/09/leetcode-003/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/10/05/map-js/</loc>
-        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2021/04/09/nest-001/</loc>
         <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -297,80 +233,64 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/15/django-orm-002/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/08/10/Javascript/javascript-001/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/26/django-orm-003/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/08/17/Javascript/javascript-002/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/22/django/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2021/01/11/Javascript/javascript-003/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/11/01/django-querystring/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2021/01/13/Javascript/javascript-004/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/03/23/docker-002/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2020/10/05/Javascript/map-js/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/04/06/docker-003/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2021/01/07/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/leetcode-001/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/03/23/docker-001/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2021/01/08/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/leetcode-002/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/04/07/docker-004/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/11/29/flask-001/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/10/06/filter-js/</loc>
-        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <loc>https://daphne-dev.github.io/2021/01/09/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/leetcode-003/</loc>
+        <lastmod>2023-10-09T07:15:45.642Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -385,7 +305,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/02/git/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/02/Git/git/</loc>
         <lastmod>2023-10-09T07:15:45.641Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -393,7 +313,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/03/git2/</loc>
+        <loc>https://daphne-dev.github.io/2021/01/18/Git/git-flow-github-flow-gitlab-flow/</loc>
         <lastmod>2023-10-09T07:15:45.641Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -401,7 +321,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/18/git-flow-github-flow-gitlab-flow/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/03/Git/git2/</loc>
         <lastmod>2023-10-09T07:15:45.641Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -409,7 +329,87 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/17/coding-test-002/</loc>
+        <loc>https://daphne-dev.github.io/2021/03/23/Docker/docker-001/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2021/04/06/Docker/docker-003/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2021/03/23/Docker/docker-002/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2021/04/07/Docker/docker-004/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/10/06/Javascript/filter-js/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/10/15/Framework/Django/django-orm-002/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/10/26/Framework/Django/django-orm-003/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/11/01/Framework/Django/django-querystring/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/09/22/Framework/Django/django/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/11/29/Framework/Flask/flask-001/</loc>
+        <lastmod>2023-10-09T07:15:45.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/10/04/Database/database-002/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -417,7 +417,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/05/coding-test-003/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/25/Database/database-001/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -425,7 +425,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/15/css-layout-float/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/24/Database/database-003/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -433,7 +433,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/14/css-layout-position/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/24/Database/database-004/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -441,7 +441,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/04/database-002/</loc>
+        <loc>https://daphne-dev.github.io/2020/11/17/Database/database-005/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -449,7 +449,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/15/css-layout-inline/</loc>
+        <loc>https://daphne-dev.github.io/2021/01/04/Database/database-index/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -457,7 +457,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/09/25/database-001/</loc>
+        <loc>https://daphne-dev.github.io/2021/01/04/Database/database-transaction/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -465,7 +465,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/24/database-004/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/05/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/coding-test-003/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -473,7 +473,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/24/database-003/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/17/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/coding-test-002/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -481,7 +481,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/04/database-index/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/15/HTML/CSS/css-layout-float/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -489,7 +489,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/11/17/database-005/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/15/HTML/CSS/css-layout-inline/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -497,7 +497,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2021/01/04/database-transaction/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/15/Framework/Django/django-001/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -505,7 +505,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/15/django-001/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/01/Framework/Django/django-mysql/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -513,7 +513,7 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/01/django-mysql/</loc>
+        <loc>https://daphne-dev.github.io/2020/09/14/HTML/CSS/css-layout-position/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -521,24 +521,8 @@
     </url>
 
     <url>
-        <loc>https://daphne-dev.github.io/2020/10/15/django-orm-001/</loc>
+        <loc>https://daphne-dev.github.io/2020/10/15/Framework/Django/django-orm-001/</loc>
         <lastmod>2023-10-09T07:15:45.640Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/09/17/coding-test-001/</loc>
-        <lastmod>2023-10-09T07:15:45.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://daphne-dev.github.io/2020/10/05/callbackfunction-js/</loc>
-        <lastmod>2023-10-09T07:15:45.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -626,6 +610,22 @@
 
     <url>
         <loc>https://daphne-dev.github.io/2020/08/16/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BD%94%EC%8A%A4/2.%20DB%20%EC%97%B0%EA%B2%B0%20%EC%9B%B9%20%EC%95%B1/boostcourse-2-2/</loc>
+        <lastmod>2023-10-09T07:15:45.639Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/10/05/Javascript/callbackfunction-js/</loc>
+        <lastmod>2023-10-09T07:15:45.639Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://daphne-dev.github.io/2020/09/17/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%26SQL/coding-test-001/</loc>
         <lastmod>2023-10-09T07:15:45.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
